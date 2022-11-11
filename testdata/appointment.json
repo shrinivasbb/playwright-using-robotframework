@@ -1,0 +1,9 @@
+{
+    "appointment":{
+        "facility": "Seoul CURA Healthcare Center",
+        "apply": "Yes",
+        "healthprogram":"None",
+        "visitdate": "12/12/2031",
+        "comment": "Automation Comment is added for today"
+    }
+}
