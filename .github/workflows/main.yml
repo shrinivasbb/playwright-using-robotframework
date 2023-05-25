@@ -32,10 +32,10 @@ jobs:
         cache: pip
     - run: pip install -r requirements.txt
     - run: rfbrowser init
-    - run: robot tests/
+    - run: robot --outputdir Reports --timestampoutputs tests/
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v3
       with:
           name: my-artifact
-          path: log.html, report.html, output.xml
+          path: Reports/
           retention-days: 5
