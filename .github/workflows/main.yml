@@ -28,7 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - name : Installing Python 3.10
-      uses: actions/setiup-python@v4
+      uses: actions/setup-python@v4
       with:
         python-version: '3.10'
         cache: pip
